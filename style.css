@@ -161,6 +161,33 @@ ul .contenuprincipal{
 	align-content: center ;
 	font-size: 25px;
 }
+ul .contenuprincipal #Membres{
+	margin-left: 470px;
+	width: 400px;
+	overflow: auto;
+}
+ul .contenuprincipal .images{
+	animation-duration: 10s;
+	animation-name: ImagesM;
+	animation-iteration-count: infinite;
+}
+@KeyFrames ImagesM{
+	0% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-200px);
+	}
+	50% {
+		transform: translateX(-400px);
+	}
+	75% {
+		transform: translateX(-600px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
 ul .Annonces{
 	text-align: center;
 	align-content: center;
@@ -190,3 +217,4 @@ ul .invite a{
 		padding: 100px;
 	}
 }
+
