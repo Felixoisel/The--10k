@@ -167,6 +167,7 @@ ul .contenuprincipal #Membres{
 	overflow: auto;
 }
 ul .contenuprincipal .images{
+	display: flex;
 	animation-duration: 10s;
 	animation-name: ImagesM;
 	animation-iteration-count: infinite;
