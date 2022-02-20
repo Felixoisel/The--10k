@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #141414;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	overflow-x: hidden;
+	margin: 0;
+	background-image: url('https://voyage-onirique.com/wp-content/uploads/2020/07/642704.jpg')
+}
+body .page{
+	margin: 0px 0px;
+}
+
+/* Barre de navigation */	
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	background-color: #141414;
+	padding: 10px 0px;
+}
+nav .onglets{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5px;
+	text-decoration: none;
+}
+nav .onglets a{
+	margin-right: 10px;
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	transition: ease .5000s all;
+	border-radius: 25px;
+}
+
+nav .onglets a:hover{
+	color: white;
+	background-color: grey;
+	background-image: url(https://media.giphy.com/media/ADgfsbHcS62Jy/giphy.gif);
+	background-position: -50px;
+}
+ nav .onglets ul a{
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: #141414;
+	height: 30px;
+	width: 100px;
+	color: white;
+	text-decoration: none;
+}
+
+nav .buttons button{
+	margin: 25px 10px;
+	padding: 10px 30px;
+	border: none;
+	font-size: 10px;
+	cursor: pointer;
+	outline: none;
+}
+nav .buttons .login{
+	background-color: inherit;
+	margin-right: 10px;
+	color: #8f8f8f;
+}
+nav .buttons .register{
+	background-color: #f54266;
+	margin-right: 10px;
+	color: #fff;
+}
+/* fin de la Barre de navigation */
+
+/* Partie Header */
+header{
+	margin-top: 40px;
+	background:url('https://cdn.discordapp.com/icons/699320465134715020/a_fb945cdf7292fb61e8752d86deabb576.gif?size=256');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 400px 400px;
+}	
+header h1{
+	text-align: center;
+	font-size: 100px;
+	padding: 150px;
+}
+/* Fin de la partie Header */
+
+/* Image */
+#Image {
+	margin-left: 430px;
+	width: 520px;
+	overflow: auto;
+	border: 2px solid #333;
+}
+.images {
+	display: flex;
+	animation-duration: 10s;
+	animation-name: MesImages;
+	animation-iteration-count: infinite;
+}
+@KeyFrames MesImages {
+	0% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-540px);
+	}
+	50% {
+		transform: translateX(-1040px);
+	}
+	75% {
+		transform: translateX(-1200px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+/* Invite Insta */
+ul .invite i .fab fa-instagram{
+	max-width: 10px;
+	max-height: 100px;
+}
+
+/* pied de page */
+footer{
+	background-color: #1a1a1a ;
+	padding: 25px 100px;
+	color: #828282;
+}
+footer .colonnes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/* Fin du pied de page */
+
+@media screen and (max-width: 640px){
+	body .page{
+		margin: 10px;
+	}
+	nav .onglets{
+		display: none;
+	}
+	header{
+		margin-top: 20px;
+		background-size: 250px 250px;
+	}
+	header .h1{
+		font-size: 30px;
+		padding: 100px;
+	}
+}
+ul .contenuprincipal{
+	text-align: center;
+	align-content: center ;
+	font-size: 25px11;
+}
+ul .Annonces{
+	text-align: center;
+	align-content: center;
+}
+ul .Membres{
+	text-align: center;
+	align-content: center;
+}
+ul .invite a{
+	text-decoration: none;
+	color: #fff;
+}
+
