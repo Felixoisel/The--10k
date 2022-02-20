@@ -97,7 +97,7 @@ header h1{
 	overflow: auto;
 	border: 2px solid #333;
 }
-.images {
+#Image .images {
 	display: flex;
 	animation-duration: 10s;
 	animation-name: MesImages;
